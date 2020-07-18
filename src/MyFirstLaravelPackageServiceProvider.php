@@ -2,8 +2,8 @@
 
 namespace Georanma\MyFirstLaravelPackage;
 
-use Illuminate\Support\ServiceProvider;
 use Georanma\MyFirstLaravelPackage\Commands\MyFirstLaravelPackageCommand;
+use Illuminate\Support\ServiceProvider;
 
 class MyFirstLaravelPackageServiceProvider extends ServiceProvider
 {
