@@ -2,8 +2,8 @@
 
 namespace Georanma\MyFirstLaravelPackage\Tests;
 
-use Orchestra\Testbench\TestCase as Orchestra;
 use Georanma\MyFirstLaravelPackage\MyFirstLaravelPackageServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
