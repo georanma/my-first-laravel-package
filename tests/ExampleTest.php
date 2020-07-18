@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Skeleton\Tests;
+namespace Georanma\MyFirstLaravelPackage\Tests;
 
 class ExampleTest extends TestCase
 {
