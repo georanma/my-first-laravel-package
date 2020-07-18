@@ -1,16 +1,16 @@
 {
-    "name": "spatie/:package_name",
-    "description": ":package_description",
+    "name": "spatie/my-first-laravel-package",
+    "description": "My first laravel package",
     "keywords": [
         "spatie",
-        ":package_name"
+        "my-first-laravel-package"
     ],
-    "homepage": "https://github.com/spatie/:package_name",
+    "homepage": "https://github.com/spatie/my-first-laravel-package",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
+            "name": "George Birnbaum",
+            "email": "georanma@gmail.com",
             "homepage": "https://spatie.be",
             "role": "Developer"
         }
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src"
+            "Georanma\\MyFirstLaravelPackage\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Georanma\\MyFirstLaravelPackage\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,10 +47,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Georanma\\MyFirstLaravelPackage\\MyFirstLaravelPackageServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "MyFirstLaravelPackage": "Georanma\\MyFirstLaravelPackage\\MyFirstLaravelPackageFacade"
             }
         }
     },
